@@ -14,6 +14,7 @@
 
 body {
     background-color: #0a0e0d;
+    overflow-x: hidden;
 }
 
 #background {
@@ -40,6 +41,8 @@ body {
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
     box-sizing: border-box;
     z-index: 1000;
+    margin: 0px;
+    right: 0;
 }
 
 .logo {
@@ -202,7 +205,7 @@ div.line-effect {
 
 div.about-section {
 
-    margin-left: 150px;
+    padding-left: 150px;
     height: fit-content;
     display: flex;
     flex-direction: row;
@@ -295,4 +298,90 @@ div.achievement-showcase-card {
     height: 4px;
     border: none;
     background-color: #ff6600;
+}
+
+div.robot-showcase-section {
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-bottom: 1px solid rgb(97, 97, 97);
+}
+div.robot-showcase {
+    margin-left: 200px;
+    height: 500;
+    margin: 0;
+}
+
+.robot-showcase-section img {
+    margin: 0px 100px;
+}
+
+.robot-showcase h1 {
+    font-size: 80px;
+    color: white;
+    font-family: 'Azonix';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.robot-showcase h4 {
+    font-size: 40px;
+    color: #ff6600;
+    font-family: 'Azonix';
+    margin-bottom: 0px;
+    margin-top: 150px;
+}
+
+.robot-showcase p {
+    font-size: 42px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 800px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+div.features-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.features-list table {
+    width: 900px; 
+    border-collapse: collapse;
+    font-family: 'Poppins';
+}
+
+.features-list table tr {
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.question {
+    color: #ff6600;
+    font-size: 36px; 
+    font-weight: 700; 
+    letter-spacing: 0.1em; 
+    text-transform: uppercase; 
+    width: 60%; 
+    padding: 10px 16px 10px 0;
+}
+
+.answer {
+    color: #e8e8e8; 
+    font-size: 36px; 
+    padding: 10px 0;
+}
+
+.robot-showcase button {
+    font-size: 36px;
+    background-color: #ff6600;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: fit-content;
+    padding: 20px 50px;
+    border-radius: 82px;
+    margin-left: 0px;
+    margin-top: 100px;
+    border: 5px none #ff782e;
 }
