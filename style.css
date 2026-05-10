@@ -112,11 +112,11 @@ div.hero {
     margin-left: 50px;
 }
 #universe-logo {
-    width: 1500px;
+    width: 60vw;
     margin-top: 250px;
 }
 #first-logo {
-    width: 400px;
+    width: 20vw;
     margin-left: 80px;
     margin-top: 50px;
 }
@@ -125,7 +125,7 @@ div.hero {
     border: none;
     height: 3px;
     background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
-    width: 800px;
+    width: 35vw;
     margin-left: 80px;
     margin-top: 0;
     margin-right: 0px;
@@ -142,16 +142,16 @@ div.line-effect {
 }
 
 .star {
-    width: 50px;
-    height: 50px;
+    width: 2vw;
+    height: 2vw;
     margin-left: 50px;
 }
 
 .hero p {
-    font-size: 42px;
+    font-size: 1.5vw;
     color: white;
     font-family: 'Poppins', sans-serif;
-    max-width: 800px;
+    max-width: 35vw;
     margin-left: 80px;
     margin-top: 20px;
 }
