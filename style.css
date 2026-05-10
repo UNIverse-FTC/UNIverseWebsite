@@ -36,7 +36,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
     box-sizing: border-box;
@@ -271,7 +271,7 @@ div.about-text {
 div.achievement-showcase-card {
     height: 500px;
     width: 350px;
-    border: 4px solid rgb(92, 92, 92);
+    border: 2px solid rgb(92, 92, 92);
     border-radius: 15px;
     margin-right: 50px;
     font-family: 'Azonix';
@@ -431,18 +431,83 @@ div.title-bar {
     display: flex;
     flex-direction: row;
     height: fit-content;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: 100vw - 150px;
+    margin-bottom: 150px;
 }
 
 .team-card {
+    overflow: hidden;
     height: 500px;
     width: 350px;
-    border: 4px solid rgb(92, 92, 92);
+    border: 2px solid #46433d;
     border-radius: 15px;
-    margin-right: 50px;
+    margin-right: 100px;
     font-family: 'Azonix';
+    background-color: #0a0e0d;
     color: white;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.team-card img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    z-index: 1;
+    border-radius: 100px;
+    border: 3px solid #ff6600;
+    top: 0;
+}
+.text {
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    padding-top: 5px;
+    margin: 0px 50px;
+
+}
+
+.text h1 {
+    margin-bottom: 0;
+    letter-spacing: 5px;
+}
+
+.text h2 {
+    color: #ff6600;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.text p {
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+
+}
+
+.line2 {
+    border: none;
+    height: 2px;
+    background-color: #ff6600;
+    width: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.text button {
+    font-size: 16px;
+    background-color: transparent;
+    color: #ff6600;
+    font-family: 'Poppins', sans-serif;
+    max-width: fit-content;
+    padding: 4px 20px;
+    border-radius: 20px;
+    margin-left: 0px;
+    border: 2px solid #ff6600;
 }
